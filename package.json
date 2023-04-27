@@ -2,6 +2,10 @@
   "name": "user-location",
   "version": "0.0.0",
   "license": "MIT",
+  "author": {
+    "name": "Nicholas Cunningham",
+    "email": "ndcunningham@gmail.com"
+  },
   "scripts": {
     "build": "npx nx build",
     "lint": "npx nx lint",
@@ -12,6 +16,7 @@
   "private": true,
   "dependencies": {
     "@nrwl/netlify": "15.9.6",
+    "node-fetch": "^3.3.1",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
